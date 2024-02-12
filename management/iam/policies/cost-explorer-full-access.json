@@ -1,0 +1,22 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+      {
+          "Sid": "BillingPortalActions",
+          "Effect": "Allow",
+          "Action": [
+              "aws-portal:View*",
+              "billing:*",
+              "cur:Describe*",
+              "cur:Get*",
+              "cur:List*",
+              "ce:CreateReport",
+              "ce:Describe*",
+              "ce:Get*",
+              "ce:List*",
+              "ce:UpdateReport"
+          ],
+          "Resource": "*"
+      }
+  ]
+}
